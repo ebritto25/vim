@@ -14,6 +14,9 @@ Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
+" The NERDtree Plugin
+Plugin 'scrooloose/nerdtree'
+
 
 
 " All of your Plugins must be added before the following line
@@ -37,3 +40,4 @@ set tabstop=4
 set shiftwidth=4
 set cursorcolumn
 set cursorline
+autocmd vimenter * NERDTree
