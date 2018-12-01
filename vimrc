@@ -16,8 +16,10 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 " The NERDtree Plugin
 Plugin 'scrooloose/nerdtree'
-
-
+" vim-mustache-handlebars
+Plugin 'mustache/vim-mustache-handlebars'
+" vim-javascript Plugin
+Plugin 'pangloss/vim-javascript'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -40,4 +42,5 @@ set tabstop=4
 set shiftwidth=4
 set cursorcolumn
 set cursorline
-autocmd vimenter * NERDTree
+autocmd vimenter * NERDTree 
+map <F2> :set hlsearch! <CR>
