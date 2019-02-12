@@ -43,7 +43,8 @@
  
 "GENERAL CONFIGURATION
  
- 
+set background=dark
+set t_Co=256
 set clipboard=unnamed
 set number relativenumber
 set autoindent
