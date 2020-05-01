@@ -5,7 +5,7 @@ cp $vim_file $vim_file_backup
 rm $vim_file
 
 #Cloning Vundle for Vim plugin management
-#git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim
+git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim
 
 rm -rf $HOME/.workflow
 #Copies the configuration files to the HOME directory that will be used as source
